@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('https://w0.peakpx.com/wallpaper/488/878/HD-wallpaper-yugioh-tribal-thumbnail.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color:white;
+}
+
+footer{
+    margin-bottom: 20px;
+    color:white;
+    background-color: black;
+}
+#image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image {
+    margin: 10px;
+    padding: 0px;
+    max-width: 100%;
+    height: auto; 
+}
+
+/* Responsive styling */
+@media screen and (max-width: 768px) {
+    .image {
+        width: calc(30% - 0px); 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .image {
+        width: calc(40% - 20px); 
+    }
+}

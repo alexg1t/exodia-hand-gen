@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
         // Generate 5 unique index
         var imageIndices = [];
         while (imageIndices.length < 5) {
-            var randomIndex = Math.floor(Math.random() * 40); 
+            var randomIndex = Math.floor(Math.random() * 39)+1; 
             if (!imageIndices.includes(randomIndex)) {
                 imageIndices.push(randomIndex);
             }
